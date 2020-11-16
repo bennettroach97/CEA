@@ -1,5 +1,8 @@
-<h1>Productions</h1>
+<br><h1 style="text-decoration: underline; font-weight: bolder;">PRODUCTIONS</h1>
+
 <div id="search">
+  <br>
+  <h4 style="text-align: center; font-style: italic ;">Search through productions below.</h4>
   <input type="text" placeholder="Search">
   <div><label>Filter</label><select>
     <option>Date</option>
@@ -9,6 +12,7 @@
 </div>
 </div>
 <ng-template [ngIf]="isAdmin"><div><a routerLink="/myProductions"><button>My Productions</button></a></div></ng-template>
+<br><br>
 <h2>Results</h2>
 <div class="results" >
     <div *ngFor="let result of results"><a routerLink="/productionDetails">

@@ -17,6 +17,8 @@ import { UserSearchComponent } from './user-search/user-search.component';
 import { EditProductionComponent } from './edit-production/edit-production.component';
 import { MyProductionsComponent } from './my-productions/my-productions.component';
 import { RoleDetailsComponent } from './role-details/role-details.component';
+import { ProductionReviewsComponent } from './production-reviews/production-reviews.component';
+import { UserDirectMessagingComponent } from './user-direct-messaging/user-direct-messaging.component';
 
 const routes: Routes = [
   {path: '', component: LoginComponent},
@@ -46,7 +48,9 @@ const routes: Routes = [
     UserSearchComponent,
     EditProductionComponent,
     MyProductionsComponent,
-    RoleDetailsComponent
+    RoleDetailsComponent,
+    ProductionReviewsComponent,
+    UserDirectMessagingComponent
   ],
   imports: [
     BrowserModule,
